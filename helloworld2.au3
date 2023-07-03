@@ -1,0 +1,6 @@
+Run("notepad.exe")
+WinWaitActive("Безымянный – Блокнот")
+Send("Hi man wassup?")
+WinClose("*Безымянный – Блокнот")
+WinWaitActive("Блокнот", "Со&хранить")
+Send("{TAB}{ENTER}")
